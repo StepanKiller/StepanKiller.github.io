@@ -113,10 +113,29 @@ figure:first-child {
 	.glxavor {
 		width: 100% 
 	}
+	h4 {
+	position	: absolute;
+	top		: 200px;
+	left		:0%;
+	width		: 100%;
+	font-family: Arial
+	    font-family: Calluna Sans, Arial, sans-serif;
+        color: #fff;
+        margin-top: 0;
+        background: linear-gradient(rgba(0,0,0,0.5),
+         rgba(0,0,0,0.5)),
+          url('');
+        font-size: 5rem;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        word-spacing: rem;
+        vertical-align: middle;
+}
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 920px) {
 
 	.wrapper {
 		width: 100%;
@@ -132,6 +151,26 @@ figure:first-child {
 	.nkarneribox {
 		width: 50%;
 	}
+	h4 {
+	position	: absolute;
+	top		: 130px;
+	left		:0%;
+	width		: 100%;
+	font-family: Arial
+	    font-family: Calluna Sans, Arial, sans-serif;
+        color: #fff;
+        margin-top: 0;
+        background: linear-gradient(rgba(0,0,0,0.5),
+         rgba(0,0,0,0.5)),
+          url('');
+        font-size: 5rem;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        word-spacing: rem;
+        vertical-align: middle;
+}
+
 
 
 }
