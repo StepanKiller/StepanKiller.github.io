@@ -93,3 +93,58 @@ figure:first-child {
 .imgfooter {
 	width: 45px;
 }
+
+
+/* media */
+
+@media (max-width: 1160px) {
+
+	.wrapper {
+		width: 100%;
+	}
+	figure {
+		width: 100%;
+		margin: 0;
+		margin-bottom: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		text-align: center; 
+	}
+	.glxavor {
+		width: 100% 
+	}
+
+}
+
+@media (max-width: 900px) {
+
+	.wrapper {
+		width: 100%;
+	}
+	figure {
+		width: 100%;
+		margin: 0;
+		margin-bottom: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		text-align: center; 
+	}
+	.nkarneribox {
+		width: 50%;
+	}
+
+
+}
+
+
+@media (max-width: 450px) {
+
+	.wrapper {
+		width: 100%;
+	}
+
+	.lightbox {
+		width: 50%;
+	}
+
+}	
