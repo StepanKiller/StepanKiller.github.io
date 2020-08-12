@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="16" viewBox="0 0 25 16">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 450 300">
+      <image width="450" height="300" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcIAAAEsAgMAAAAtOFskAAAACVBMVEUAI5X////tKTkDtutPAAAAlklEQVR4Ae3NQQEAEBAAMCCift5SSsBdgK3ASspcGSdjG41Go9FoNBqNRqPRaDQajUaj0Wg0Go1Go9FoNBqNxv9oNBqNRqPRaDQajUaj0Wg0Go1Go9FoNBqNRqPRaDQajUaj0Wg0Go1Go9FoNBqNRqPRaDQajUaj0Wg0Go1Go9FoNBqNRqPRaDQajUaj0Wg0Go1Go9FovDbh9IYjwFk3AAAAAElFTkSuQmCC"/>
+    </pattern>
+  </defs>
+  <rect id="france" width="25" height="16" fill="url(#pattern)"/>
+</svg>

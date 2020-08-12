@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 43 43">
+  <g id="Group_30" data-name="Group 30" transform="translate(-140 -104)">
+    <g id="Page-1" transform="translate(136.361 99.722)">
+      <g id="Facebook" transform="translate(19.5 14)">
+        <path id="Oval-1" d="M27.332,37.556V25.777h3.484l.462-4.059H27.332l.006-2.032c0-1.059.108-1.626,1.737-1.626h2.178V14H27.769c-4.186,0-5.659,1.969-5.659,5.281v2.437H19.5v4.059h2.609V37.556Zm0,0" transform="translate(-19.5 -14)" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Rectangle_9" data-name="Rectangle 9" transform="translate(140 104)" fill="none" stroke="#fff" stroke-width="3">
+      <rect width="43" height="43" rx="12" stroke="none"/>
+      <rect x="1.5" y="1.5" width="40" height="40" rx="10.5" fill="none"/>
+    </g>
+  </g>
+</svg>
