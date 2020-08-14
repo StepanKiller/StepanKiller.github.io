@@ -540,8 +540,8 @@ margin-top: 30px;
 
 .see-more:hover {
     background-color: #593340FF;
-    transition: all 300ms ease;
     color: #fff;
+    transition: all 300ms ease;
 }
 .see-more:link {
     background-color: #fff;
@@ -572,6 +572,12 @@ margin-top: 30px;
     margin-left: 1120px;
     opacity: 0.1
 }
+
+
 .hr {
-    width: 300px;
+    width: 1250px;
+    height: 2px;
+    background-color: #593340;
+    margin-left: 7%;
+    margin-top: 150px;
 }
