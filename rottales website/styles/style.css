@@ -17,7 +17,6 @@ body {
 }
 
 
-
 header {
     width: 100%;
     background: white;
@@ -580,4 +579,122 @@ margin-top: 30px;
     background-color: #593340;
     margin-left: 7%;
     margin-top: 150px;
+}
+
+
+
+.bad {
+
+    position: relative;
+    text-decoration: none;
+    font-size: 19px;
+    color: #290F19FF;
+    margin-left: 4.4%;
+    border: 0px solid #BE8940FF;
+    border-radius: 15px;
+    background-color: #290f19;
+    padding-top: 12px;
+    padding-bottom: 12px;   
+    padding-right: 70px;
+    padding-left: 70px;
+    color: white;
+}
+
+.bad:hover {
+    background-color: #1D0D13FF;
+    transition: background 300ms ease;
+}
+.bad:link {
+    background-color: #290f19;
+    transition: background 300ms ease;
+}   
+
+.normal {
+
+    position: relative;
+    text-decoration: none;
+    font-size: 19px;
+    color: #290F19FF;
+    margin-left: 4.4%;
+    border: 0px solid #BE8940FF;
+    border-radius: 15px;
+    background-color: #6e4157;
+    padding-top: 12px;
+    padding-bottom: 12px;   
+    padding-right: 70px;
+    padding-left: 70px;
+    color: white;
+}
+
+.normal:hover {
+    background-color: #1D0D13FF;
+    transition: background 300ms ease;
+}
+.normal:link {
+    background-color: #6e4157;
+    transition: background 300ms ease;
+}   
+
+.amazing  {
+
+    position: relative;
+    text-decoration: none;
+    font-size: 19px;
+    color: #290F19FF;
+    margin-left: 4.4%;
+    border: 0px solid #BE8940FF;
+    border-radius: 15px;
+    background-color: #a36c29;
+    padding-top: 12px;
+    padding-bottom: 12px;   
+    padding-right: 70px;
+    padding-left: 70px;
+    color: white;
+}
+
+.amazing:hover {
+    background-color: #1D0D13FF;
+    transition: background 300ms ease;
+}
+.amazing:link {
+    background-color: #a36c29;
+    transition: background 300ms ease;
+}   
+
+.reiting {
+    background: #e0e783;
+    height: 335px;
+    width: 88.2%;
+    border-radius: 30px;
+    margin-left: 6.9%;
+    margin-top: 70px;
+}
+
+.rateus {
+    margin: 60px;
+}
+.arajin {
+    margin-left: 5%;
+    padding-top: 30px;
+    font-size: 60px;
+    color: #593340;
+}
+.erkrord {
+    margin-left: 5%;
+    font-size: 60px;    
+    color: #593340;
+    font-weight: normal;
+}
+
+.rate {
+    text-align: center;
+}
+
+.credits {
+    font-size: 60px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 20px;
+    color: #593340FF;
 }
