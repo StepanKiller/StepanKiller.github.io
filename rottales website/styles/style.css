@@ -694,7 +694,10 @@ margin-top: 30px;
     font-size: 60px;
     font-weight: normal;
     text-align: center;
-    margin-top: 28px;
+    margin-top: 90px;
     margin-bottom: 20px;
     color: #593340FF;
+}
+.credits a:hover {
+    background-color: green;
 }
