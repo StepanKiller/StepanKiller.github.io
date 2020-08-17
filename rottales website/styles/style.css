@@ -664,7 +664,7 @@ margin-top: 30px;
 .reiting {
     background: #e0e783;
     height: 335px;
-    width: 87%;
+    width: 87.1%;
     border-radius: 30px;
     margin-left: 6.9%;
     margin-top: 70px;
@@ -700,4 +700,169 @@ margin-top: 30px;
 }
 .credits a:hover {
     background-color: green ;
+}
+
+
+.mardik {
+    display: flex;
+    margin-top: 60px;
+}
+.mardik img {
+    width: 80px;
+}
+.mardik .table1 {
+    margin-left: 12%;
+}
+.mardik .table2 {
+    margin-left: 36%;
+}
+.mardik .table1 p {
+    width: 100%;
+    font-size: 20px;
+    margin-left: 35%;
+}
+.mardik .table2 p {
+    width: 100%;
+    font-size: 20px;
+    margin-left: 16%;
+}
+.table1 img {
+    margin-bottom: 30px;
+}
+.table2 img {
+    margin-bottom: 30px;
+}
+.table1 p {
+    margin-bottom: 35px;
+}
+.table2 p {
+    margin-bottom: 35px;
+}
+
+.hr2 {
+    width: 1236px;
+    height: 3px;
+    background-color: #593340;
+    margin-left: 7%;
+    margin-top: 85px;
+    margin-bottom: 90px;
+    border: none;
+}
+
+
+footer {
+    width: 100%;
+    height: 170px;
+    background-color: #593340FF;
+    display: flex;
+}
+.nerqev .facebook {
+    width: 30px;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+.nerqev .in {
+    width: 30px;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+.nerqev .twitter {
+    width: 30px;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+.nerqev .youtube {
+    width: 30px;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+.nerqev .copyright {
+    color: white;
+    margin-top: 10px;
+    position: absolute;
+}
+.nerqev .help {
+    margin-left: 35%;
+    margin-right: 4%;
+    margin-top: 70px;
+    text-decoration: none;
+    color: #E0E783FF;
+    position: absolute;
+}
+.nerqev .privacy {
+    margin-left: 43%;
+    margin-right: 4%;
+    margin-top: 70px;
+    text-decoration: none;
+    color: #E0E783FF;
+    position: absolute;
+}
+.nerqev .developers {
+    margin-left: 55%;
+    margin-top: 70px;
+    margin-right: 4%;
+    text-decoration: none;
+    color: #E0E783FF;
+    position: absolute;
+}
+.nerqev .gmail {
+    margin-left: 61.6%;
+    margin-right: %;
+    margin-top: 28px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    font-style: italic;
+}
+.nerqev .languages {
+    margin-top: 73px;
+    margin-left: 65%;
+    position: absolute;
+}
+.nerqev .en {
+    margin-left: 0%;
+    width: 20px;
+}
+.nerqev .fr {
+    margin-left: 150%;
+    width: 20px;
+}
+.nerqev .es {
+    margin-left: 300%;
+    width: 20px;
+}
+.nerqev .jp {
+    margin-left: 450%;
+    width: 20px;
+}
+.nerqev .texten {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    margin-top: -36px;
+}
+.nerqev .textfr {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    margin-top: -36px;
+    margin-left: 155%;
+}
+.nerqev .textes {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    margin-top: -36px;
+    margin-left: 305%;
+}
+.nerqev .textjp {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    margin-top: -36px;
+    margin-left: 470%;
 }
