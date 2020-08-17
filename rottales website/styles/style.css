@@ -520,7 +520,6 @@ margin-top: 30px;
 
 
 .see-more  {
-
     position: relative;
     text-decoration: none;
     font-size: 19px;
@@ -601,7 +600,7 @@ margin-top: 30px;
 }
 
 .bad:hover {
-    background-color: #1D0D13FF;
+    background-color: #3A3A3AFF;
     transition: background 300ms ease;
 }
 .bad:link {
@@ -627,7 +626,7 @@ margin-top: 30px;
 }
 
 .normal:hover {
-    background-color: #1D0D13FF;
+    background-color: #D26490FF;
     transition: background 300ms ease;
 }
 .normal:link {
@@ -653,7 +652,7 @@ margin-top: 30px;
 }
 
 .amazing:hover {
-    background-color: #1D0D13FF;
+    background-color: #FC932AFF;
     transition: background 300ms ease;
 }
 .amazing:link {
@@ -699,5 +698,5 @@ margin-top: 30px;
     color: #593340FF;
 }
 .credits a:hover {
-    background-color: green;
+    background-color: green ;
 }
