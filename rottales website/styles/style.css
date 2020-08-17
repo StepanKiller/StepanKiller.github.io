@@ -789,6 +789,9 @@ footer {
     color: #E0E783FF;
     position: absolute;
 }
+.nerqev .help:hover {
+    text-decoration: underline;
+}
 .nerqev .privacy {
     margin-left: 43%;
     margin-right: 4%;
@@ -797,6 +800,9 @@ footer {
     color: #E0E783FF;
     position: absolute;
 }
+.nerqev .privacy:hover {
+    text-decoration: underline;
+}
 .nerqev .developers {
     margin-left: 55%;
     margin-top: 70px;
@@ -804,6 +810,9 @@ footer {
     text-decoration: none;
     color: #E0E783FF;
     position: absolute;
+}
+.nerqev .developers:hover {
+    text-decoration: underline;
 }
 .nerqev .gmail {
     margin-left: 61.6%;
