@@ -94,16 +94,16 @@ nav {
 }
 .hover-border1::after {
     content: '';
-    width: 0%;
+    width: 30%;
     height: 4px;
     background-color: #1D0D13FF;
     position: absolute;
-    bottom: -9%; left: 52%;
+    bottom: -9%; left: 38%;
     border-radius: 0px;
     transition: all 200ms ease;
 }
 .hover-border1:hover::after {
-    left: 40%;
+    left: 38%;
     width: 30%;
 }
 
@@ -123,7 +123,7 @@ nav {
     content: '';
     width: 0%;
     height: 4px;
-    background-color: #1D0D13FF;
+    background-color: #6E4157FF;
     position: absolute;
     bottom: -9%; left: 52%;
     border-radius: 0px;
@@ -151,7 +151,7 @@ nav {
     content: '';
     width: 0%;
     height: 4px;
-    background-color: #1D0D13FF;
+    background-color: #6E4157FF;
     position: absolute;
     bottom: -9%; left: 50%;
     border-radius: 0px;
@@ -180,7 +180,7 @@ nav {
     content: '';
     width: 0%;
     height: 4px;
-    background-color: #1D0D13FF;
+    background-color: #6E4157FF;
     position: absolute;
     bottom: -9%; left: 50%;
     border-radius: 0px;
