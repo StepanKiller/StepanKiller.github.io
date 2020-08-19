@@ -355,7 +355,7 @@ margin-top: 30px;
 
 
 .table_1 {
-	font-size: 20px;
+	font-size: 24px;
 }
 .choose {
 	width: 210px;
@@ -787,3 +787,41 @@ form .maple2 {
     position: relative;
     left: 31%;
 }
+
+
+
+.seemore {
+    margin-top: 60px;
+    margin-left: 600px;
+    padding-bottom: 30px;
+}
+
+
+
+.see-more  {
+    position: relative;
+    text-decoration: none;
+    font-size: 19px;
+    margin-left: 0%;
+    border: 3px solid #593340FF;
+    border-radius: 14px;
+    background-color: #fff;
+    padding-top: 8px;
+    padding-bottom: 8px;   
+    padding-right: 69px;
+    padding-left: 69px;
+    color: #593340FF;
+    font-weight: bold;
+    transition: all 300ms ease;
+}
+
+.see-more:hover {
+    background-color: #593340FF;
+    color: #fff;
+    transition: all 300ms ease;
+}
+.see-more:link {
+    background-color: #fff;
+    border-color: #593340FF;
+    transition: all 300ms ease;
+}   
