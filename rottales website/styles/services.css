@@ -422,6 +422,7 @@ input[type=checkbox] + label:before {
   vertical-align: bottom;
   color: transparent;
   transition: .2s;
+  background-color: #fff;
 }
 
 input[type=checkbox] + label:active:before {
@@ -581,7 +582,7 @@ form .maple2 {
 	width: 1100px;
 	position: absolute;
 	left: 184px;
-	margin-top: 18px;
+	margin-top: 16px;
 	background-color: black;
 	border: 0px;
 }
@@ -829,7 +830,7 @@ form .maple2 {
 
 .reiting {
     background: #e0e783;
-    height: 335px;
+    height: 365px;
     width: 75%;
     border-radius: 55px;
     margin-left: 6.9%;
@@ -856,9 +857,7 @@ form .maple2 {
     font-weight: normal;
 }
 
-.rate {
-    text-align: center;
-}
+
 .dollarov {
     margin-top: -95px;
     margin-left: 50%;
@@ -894,4 +893,26 @@ form .maple2 {
 .order_nerqevi:link {
     background-color: #BE8940FF;
     transition: background 300ms ease; 
+}
+
+.input[type=checkbox] + label {
+  display: block;
+  margin-left: 6%;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 14px;
+  width: 0%;
+}
+.i_agree {
+    font-size: 40px;
+    color: #593340;
+    width: 100%;
+    margin-top: -42px;
+    padding-left: 70px;
+}
+
+.order_block {
+    margin-top: 10px;
+    margin-left: 520px;
+    position: absolute;
 }
