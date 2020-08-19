@@ -825,3 +825,73 @@ form .maple2 {
     border-color: #593340FF;
     transition: all 300ms ease;
 }   
+
+
+.reiting {
+    background: #e0e783;
+    height: 335px;
+    width: 75%;
+    border-radius: 55px;
+    margin-left: 6.9%;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rateus {
+    margin: 60px;
+}
+
+
+.arajin {
+    margin-left: 5%;
+    padding-top: 50px;
+    font-size: 70px;
+    color: #593340;
+}
+.erkrord {
+    margin-left: 5%;
+    font-size: 60px;    
+    color: #593340;
+    font-weight: normal;
+}
+
+.rate {
+    text-align: center;
+}
+.dollarov {
+    margin-top: -95px;
+    margin-left: 50%;
+    font-size: 70px;
+    color: #593340;
+}
+
+
+
+
+.order_nerqevi {
+    position: relative;
+    text-decoration: none;
+    font-size: 24px;
+    color: #290F19FF;
+    margin-left: 73%;
+    padding-bottom: 13px;
+    border: 0px solid #BE8940FF;
+    border-radius: 18px;
+    background-color: #BE8940FF;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 73px;
+    padding-left: 73px;
+    color: white;
+}
+
+.order_nerqevi:hover {
+    background-color: #1D0D13FF;
+    transition: background 300ms ease;
+}
+
+.order_nerqevi:link {
+    background-color: #BE8940FF;
+    transition: background 300ms ease; 
+}
