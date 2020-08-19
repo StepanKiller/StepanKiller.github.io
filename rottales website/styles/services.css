@@ -402,7 +402,7 @@ input[type=checkbox] + label {
   cursor: pointer;
   padding: 1.5em;
   margin-top: 30px;
-  width: 80%;
+  width: 59%;
 }
 
 input[type=checkbox] {
@@ -444,6 +444,10 @@ input[type=checkbox]:checked:disabled + label:before {
   background-color: #bfb;
   border-color: #bfb;
 }
+
+
+
+
 form .oak_text {
 	position: absolute;
 	left: 355px;
@@ -504,11 +508,282 @@ form .maple {
 	
 }
 
+
+
+
+form .oak_text2 {
+    position: absolute;
+    left: 355px;
+    top: 100%;
+    font-size: 25px;
+    margin-top: 22px;
+}
+form .oak2 {
+    width: 40px;
+    position: absolute;
+    margin-left: 3%;
+    top: 99%;
+    margin-top: 22px;
+}
+
+form .spurce_text2 {
+    position: absolute;
+    left: 355px;
+    top: 113%;
+    font-size: 25px;
+    margin-top: 22px;
+}
+form .spurce2 {
+    width: 40px;
+    position: absolute;
+    margin-left: 3%;
+    top: 112%;
+    margin-top: 22px;
+}
+
+form .pine_text2 {
+    position: absolute;
+    left: 355px;
+    top: 126.3%;
+    font-size: 25px;
+    margin-top: 22px;
+}
+form .pine2 {
+    width: 40px;
+    position: absolute;
+    margin-left: 3%;
+    top: 125%;
+    margin-top: 22px;
+}
+
+form .maple_text2 {
+    position: absolute;
+    left: 355px;
+    top: 142.5%;
+    font-size: 25px;
+    
+}
+form .maple2 {
+    width: 40px;
+    position: absolute;
+    margin-left: 3%;
+    top: 141.1%;
+}
+
+
+
+
+
+
+
 .list_hr {
-	height: 1px;
+	height: 2px;
 	width: 1100px;
 	position: absolute;
 	left: 184px;
 	margin-top: 18px;
 	background-color: black;
+	border: 0px;
+}
+
+
+.dollar_shotchik1 {
+	position: ;
+	margin-left: 67%;
+	margin-top: -768px;
+}
+.dollar_shotchik1 input {
+	border: 2px black solid;
+	border-radius: 10px;
+	height: 37px;
+	width: 95px;
+	outline: none; 
+	font-size: 28px;
+	text-align: center;
+}
+.dollar_shotchik1 .lbs {
+	font-size: 30px;
+	position: absolute;
+}
+.dollar_shotchik1 .price {
+	font-size: 28px;
+	position: relative;
+	left: 31%;
+}
+
+
+.dollar_shotchik2 {
+	position: ;
+	margin-left: 67%;
+	margin-top: 62px;
+}
+.dollar_shotchik2 input {
+	border: 2px black solid;
+	border-radius: 10px;
+	height: 37px;
+	width: 95px;
+	outline: none; 
+	font-size: 28px;
+	text-align: center;
+}
+.dollar_shotchik2 .lbs {
+	font-size: 30px;
+	position: absolute;
+}
+.dollar_shotchik2 .price {
+	font-size: 28px;
+	position: relative;
+	left: 31%;
+}
+
+
+.dollar_shotchik3 {
+	position: ;
+	margin-left: 67%;
+	margin-top: 62px;
+}
+.dollar_shotchik3 input {
+	border: 2px black solid;
+	border-radius: 10px;
+	height: 37px;
+	width: 95px;
+	outline: none; 
+	font-size: 28px;
+	text-align: center;
+}
+.dollar_shotchik3 .lbs {
+	font-size: 30px;
+	position: absolute;
+}
+.dollar_shotchik3 .price {
+	font-size: 28px;
+	position: relative;
+	left: 31%;
+}
+
+
+
+.dollar_shotchik4 {
+	position: ;
+	margin-left: 67%;
+	margin-top: 62px;
+}
+.dollar_shotchik4 input {
+	border: 2px black solid;
+	border-radius: 10px;
+	height: 37px;
+	width: 95px;
+	outline: none; 
+	font-size: 28px;
+	text-align: center;
+}
+.dollar_shotchik4 .lbs {
+	font-size: 30px;
+	position: absolute;
+}
+.dollar_shotchik4 .price {
+	font-size: 28px;
+	position: relative;
+	left: 31%;
+}
+
+
+.dollar_shotchik5 {
+    position: ;
+    margin-left: 67%;
+    margin-top: 62px;
+}
+.dollar_shotchik5 input {
+    border: 2px black solid;
+    border-radius: 10px;
+    height: 37px;
+    width: 95px;
+    outline: none; 
+    font-size: 28px;
+    text-align: center;
+}
+.dollar_shotchik5 .lbs {
+    font-size: 30px;
+    position: absolute;
+}
+.dollar_shotchik5 .price {
+    font-size: 28px;
+    position: relative;
+    left: 31%;
+}
+
+
+.dollar_shotchik6 {
+    position: ;
+    margin-left: 67%;
+    margin-top: 62px;
+}
+.dollar_shotchik6 input {
+    border: 2px black solid;
+    border-radius: 10px;
+    height: 37px;
+    width: 95px;
+    outline: none; 
+    font-size: 28px;
+    text-align: center;
+}
+.dollar_shotchik6 .lbs {
+    font-size: 30px;
+    position: absolute;
+}
+.dollar_shotchik6 .price {
+    font-size: 28px;
+    position: relative;
+    left: 31%;
+}
+
+
+.dollar_shotchik7 {
+    position: ;
+    margin-left: 67%;
+    margin-top: 62px;
+}
+.dollar_shotchik7 input {
+    border: 2px black solid;
+    border-radius: 10px;
+    height: 37px;
+    width: 95px;
+    outline: none; 
+    font-size: 28px;
+    text-align: center;
+}
+.dollar_shotchik7 .lbs {
+    font-size: 30px;
+    position: absolute;
+}
+.dollar_shotchik7 .price {
+    font-size: 28px;
+    position: relative;
+    left: 31%;
+}
+
+
+
+.dollar_shotchik8 {
+    position: ;
+    margin-left: 67%;
+    margin-top: 62px;
+}
+.dollar_shotchik8 input {
+    border: 2px black solid;
+    border-radius: 10px;
+    height: 37px;
+    width: 95px;
+    outline: none; 
+    font-size: 28px;
+    text-align: center;
+}
+.dollar_shotchik8 .lbs {
+    font-size: 30px;
+    position: absolute;
+}
+.dollar_shotchik8 .price {
+    font-size: 28px;
+    position: relative;
+    left: 31%;
 }
