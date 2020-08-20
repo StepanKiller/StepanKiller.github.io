@@ -101,7 +101,9 @@ nav {
     left: 38%;
     width: 30%;
 }
-
+.hover-border1:active::after {
+    background-color: #1D0D13FF;
+}
 
 
 
@@ -128,7 +130,9 @@ nav {
     left: 40%;
     width: 22%;
 }
-
+.hover-border2:active::after {
+    background-color: #1D0D13FF;
+}
 
 
 
@@ -156,7 +160,9 @@ nav {
     left: 39%;
     width: 20%;
 }
-
+.hover-border3:active::after {
+    background-color: #1D0D13FF;
+}
 
 
 
@@ -185,7 +191,9 @@ nav {
     left: 39%;
     width: 17%;
 }
-
+.hover-border4:active::after {
+    background-color: #1D0D13FF;
+}
 
 
 
