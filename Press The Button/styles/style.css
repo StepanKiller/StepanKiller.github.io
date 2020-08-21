@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+.button{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    min-height: 50px;
+    padding: 0px 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    color: #fff;
+    background-color: #BE8940FF;
+    box-shadow: 0 0px 0px #3c354a;
+    transition-duration: 300ms;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    transition-delay: 300ms;
+    transition-property: hover 300ms;
+}
+
+/* стили для конкретной кнопки */
+/*.button_1{
+
+color: #fff;
+background-color: #5e5373;
+box-shadow: 0 5px 0px #3c354a;
+transition-duration: 300ms;
+margin-top: 30px;
+}*/
+
+.button:hover{
+    top: 0px;
+    box-shadow: 0 35px 0px #3c354a;
+    background-color: #D4B081FF;
+}
+.button:hover .profiletext {
+    visibility: visible;
+    transition: all 500ms ease;
+    transition-delay: 300ms;
+}
+
+
+
+
+.profiletext {
+    position: absolute;
+    visibility: hidden;
+    color: white;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-top: 43px;
+    text-decoration: none;
+    font-size: 8px;
+    transition-delay: 300ms;
+    top: 5px;
+    
+}
+
+.profile {
+    width: 25px;
+    vertical-align: middle;
+}
+
+
+.button_1 {
+    text-decoration: none;
+    color: #1D0D13FF;
+    transition: all 200ms ease;
+}
+.button_1:hover {
+    color: #0026FFFF;
+    transition: all 200ms ease;
+}
+
+.vernagir_block {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.zgushacum_block {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text_block {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.nkarner_block img {
+    width: 270px;
+    padding-bottom: 4px;
+    vertical-align: top;
+}
+.nkarner_block {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+}
