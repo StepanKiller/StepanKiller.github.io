@@ -278,7 +278,7 @@ nav {
 
 /* общие стили кнопки и текста */
 .button{
-
+    cursor: pointer;
     display: flex;
     text-align: center;
     justify-content:center;
@@ -288,7 +288,7 @@ nav {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 18px;
-    border-radius: 10px;
+    border-radius: 50%;
     position: relative;
     top: 20px;
     color: #fff;
@@ -316,6 +316,7 @@ margin-top: 30px;
     top: 0px;
     box-shadow: 0 35px 0px #3c354a;
     background-color: #D4B081FF;
+    border-radius: 10px;
 }
 .button:hover .profiletext {
     visibility: visible;
@@ -327,17 +328,17 @@ margin-top: 30px;
 
 .profiletext {
     position: absolute;
-    margin-top: 35px;
     visibility: hidden;
     color: white;
-    padding-top: 5px;
-    padding-bottom: 7px;
+    padding-top: 13px;
+    padding-bottom: 8px;
     padding-left: 13px;
     padding-right: 13px;
     margin-top: 43px;
     text-decoration: none;
     font-size: 8px;
     transition-delay: 300ms;
+    top: 0px;
     
 }
 
