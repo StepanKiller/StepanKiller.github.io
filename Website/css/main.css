@@ -234,7 +234,7 @@ footer::before {
 
 @media screen and (max-width: 1199px) {
 
-  
+
   
   
 }
@@ -269,21 +269,48 @@ footer::before {
     display: inline-block;
   }
 
+
 }
 
 
-@media screen and (max-height: 640px) {
-
+@media screen and (max-width: 709px) {
   .photo {
     display: none;
   }
+
+  .glux_text {
+    font-size: 20px;
+    margin-right: 30px;
+  }
+
+  .navigacia {
+    margin-bottom: 10px;
+  }
+
+  .navigacia .nav_item {
+    display: none;
+  }
+
+  .menubar_button {
+    display: inline-block;
+  }
+  
+
+  footer {
+    margin-top: 22.7%;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 640px) {
 
   .glux_btn {
     margin-bottom: 30px;
   }
 
-  .glux_text {
-    width: 200px;
-  }
+  
 
 }
