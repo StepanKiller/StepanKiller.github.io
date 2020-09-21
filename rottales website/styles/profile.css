@@ -186,11 +186,11 @@ nav {
 }
 .hover-border4::after {
     content: '';
-    width: 17%;
+    width: 0%;
     height: 4px;
-    background-color: #1D0D13FF;
+    background-color: #6E4157FF;
     position: absolute;
-    bottom: -9%; left: 39%;
+    bottom: -9%; left: 49%;
     border-radius: 0px;
     transition: all 200ms ease;
 }
@@ -234,6 +234,10 @@ nav {
     background-color: #BE8940FF;
     transition: background 300ms ease; 
 }
+.hover-border5:active {
+    background-color: #593340FF;
+    transition: background 200ms ease;
+}
 
 
 
@@ -266,7 +270,6 @@ nav {
     background-color: #BE8940FF;
     transition: background 300ms ease;
 }   
-
 
 
 
@@ -333,6 +336,8 @@ margin-top: 30px;
 
 
 
+
+
 .profiletext {
     position: absolute;
     visibility: hidden;
@@ -354,17 +359,25 @@ margin-top: 30px;
     vertical-align: middle;
 }
 
+.profile_info {
+    display: flex;
+    margin-left: 200px;
+}
+.profile_info p {
+    font-size: 20px;
+}
+.profile_info img {
+    margin-top: 90px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
 
 
-
-
-
-.welcome {
-    font-size: 60px;
+.profile_name {
+    font-size: 40px;
     font-weight: normal;
-    text-align: center;
-    margin-top: 28px;
-    margin-bottom: 20px;
+    margin-top: 105px;
+    margin-bottom: 5px;
 }
 .hr2 {
     width: 1236px;
@@ -542,31 +555,24 @@ footer {
 
 
 .info_block {
-    display: flex;
+
 }
 
 .gmail_block {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    text-align: center;
+    margin-left: 200px;  
 }
 
 .cell_phone_block {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    text-align: center;
+    margin-left: 200px;
+    
 }
 
 .gmail_block h2 {
     margin-top: 30px;
-    margin-bottom: 25px;
 }
 
 .cell_phone_block h2 {
     margin-top: 30px;
-    margin-bottom: 25px;
 }
 
 .gmail_block a {
@@ -588,7 +594,7 @@ footer {
 .social_media_verevi {
     background-color: #593340FF;
     width: 1236px;
-    height: 130px;
+    height: 200px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 40px;
@@ -599,10 +605,10 @@ footer {
 }
 
 .social_media_verevi a {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
     margin-top: auto;
-    margin-bottom: auto;
+    margin-bottom: 40px;
     transition: opacity 200ms ease;
 
 }
@@ -616,92 +622,76 @@ footer {
     transition: opacity 200ms ease;
 }
 
-
-.download_our_app {
-    font-size: 40px;
-    font-weight: bold;
+.social_media_verevi p {
     text-align: center;
-    margin-top: 38px;
-    margin-bottom: 30px;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    margin-top: 15px;
 }
 
 
 
-.app_store img {
-    width: 100px;
-    margin-right: 100px;
-}
-
-.google_play img {
-    width: 100px;
-    margin-right: 100px;
-}
-
-.micosoft_store img {
-    width: 100px;
-    margin-right: 100px;
-}
 
 
-.download_block p {
-    width: 800px;
-    font-size: 20px;   
-    margin-bottom: 12px;
-    
-}
 
 
-.app_store {
-    display: flex;
-    text-align: right;
-    justify-content: center;
-}
-
-.google_play {
-    display: flex;
-    text-align: right;
-    justify-content: center;
-}
-
-.micosoft_store {
-    display: flex;
-    text-align: right;
-    justify-content: center;
-}
-
-
-.download_button {
+.edit_button {
     position: relative;
     text-decoration: none;
-    font-size: 12px;
-    color: #290F19FF;
+    font-size: 14px;
+    color: #906675FF;
     margin-left: 4.4%;
     padding-bottom: 13px;
-    border: 0px solid #BE8940FF;
+    border: 2px solid #906675FF;
     border-radius: 11px;
-    background-color: #BE8940FF;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    background-color: transparent;
+    padding-top: 6px;
+    padding-bottom: 6px;
     padding-right: 32px;
     padding-left: 32px;
+}
+
+.edit_button:hover {
+    background-color: #906675FF;
     color: white;
+    transition: all 300ms ease;
 }
 
-.download_button:hover {
-    background-color: #1D0D13FF;
-    transition: background 300ms ease;
-}
-
-.download_button:link {
-    background-color: #BE8940FF;
-    transition: background 300ms ease;
+.edit_button:link {
+    transition: all 300ms ease;
 }
 
 
-.download_button_block {
-
+.edit_button_block {
+    margin-left: 71.5%;
+    margin-top: -27px;
 }
 
+.sign_out {
+    position: absolute;
+    top: 56%;
+    left: 76.5%;
+    font-size: 26px;
+}
+
+.sign_out a {
+    color: #593340FF;
+}
+
+.sign_out a:hover {
+    text-decoration: none;
+}
+
+.sign_out a:active {
+    color: #906675FF;
+    transition: all 200ms ease;
+}
+
+.sign_out a:link {
+    transition: all 200ms ease;
+    text-decoration: underline;
+}
 
 
 .bac_gits {
@@ -715,3 +705,17 @@ footer {
     border: none;
 }
 
+
+
+.number_of_orders_block {
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 400px;
+}
+.number_of_orders_block p {
+    font-size: 30px;
+}
+.number_of_orders_block .number {
+    font-size: 45px;
+    color: #593340FF;
+}
