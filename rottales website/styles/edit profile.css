@@ -364,7 +364,8 @@ margin-top: 30px;
     margin-left: 200px;
 }
 .profile_info p {
-    font-size: 20px;
+    font-size: 30px;
+    margin-left: 17px;
 }
 .profile_info img {
     margin-top: 90px;
@@ -373,12 +374,24 @@ margin-top: 30px;
 }
 
 
-.profile_name {
+.cash_block input {
     font-size: 40px;
     font-weight: normal;
     margin-top: 105px;
     margin-bottom: 5px;
+    color: #290F19FF;
+    border: 0px black solid;
+    border-radius: 15px;
+    height: 50px;
+    width: 300px;
+    outline: none; 
+
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.33);
+-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.33);
+box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.33);
 }
+}
+
 .hr2 {
     width: 1236px;
     height: 3px;
@@ -572,21 +585,39 @@ footer {
 }
 
 .cell_phone_block h2 {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
-.gmail_block a {
-    margin-top: 30px;
-    margin-bottom: 25px;
-    font-size: 25px;
+.cell_phone_block input {
+    margin-top: 5px;
     color: #290F19FF;
+    border: 0px black solid;
+    border-radius: 13px;
+    height: 41px;
+    width: 350px;
+    outline: none; 
+    font-size: 28px;
+    padding-left: 20px;
+
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.33);
+-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.33);
+box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.33);
 }
 
-.cell_phone_block a {
-    margin-top: 30px;
-    margin-bottom: 25px;
-    font-size: 25px;
+.gmail_block input {
+    margin-top: 5px;
     color: #290F19FF;
+    border: 0px black solid;
+    border-radius: 13px;
+    height: 41px;
+    width: 350px;
+    outline: none; 
+    font-size: 28px;
+    padding-left: 20px;
+
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.33);
+-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.33);
+box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.33);
 }
 
 
@@ -636,7 +667,7 @@ footer {
 
 
 
-.edit_button {
+.save_button {
     position: relative;
     text-decoration: none;
     font-size: 14px;
@@ -648,44 +679,44 @@ footer {
     background-color: transparent;
     padding-top: 6px;
     padding-bottom: 6px;
-    padding-right: 32px;
-    padding-left: 32px;
+    padding-right: 60px;
+    padding-left: 60px;
 }
 
-.edit_button:hover {
+.save_button:hover {
     background-color: #906675FF;
     color: white;
     transition: all 300ms ease;
 }
 
-.edit_button:link {
+.save_button:link {
     transition: all 300ms ease;
 }
 
 
-.edit_button_block {
+.save_button_block {
     margin-left: 71.5%;
     margin-top: -27px;
     margin-bottom: 60px;
 }
 
-.sign_out {
+.delete_block {
     position: absolute;
     top: 56%;
-    left: 76.5%;
+    left: 70.8%;
     font-size: 26px;
 }
 
-.sign_out a {
+.delete_block a {
     color: #593340FF;
 }
 
-.sign_out a:active {
+.delete_block a:active {
     color: #906675FF;
     transition: all 200ms ease;
 }
 
-.sign_out a:link {
+.delete_block a:link {
     transition: all 200ms ease;
     text-decoration: underline;    
 }
@@ -707,7 +738,7 @@ footer {
 .number_of_orders_block {
     text-align: center;
     margin-top: 120px;
-    margin-left: 400px;
+    margin-left: 270px;
 }
 .number_of_orders_block p {
     font-size: 30px;
