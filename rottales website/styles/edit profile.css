@@ -365,7 +365,7 @@ margin-top: 30px;
 }
 .profile_info p {
     font-size: 30px;
-    margin-left: 17px;
+    margin-left: 15px;
 }
 .profile_info img {
     margin-top: 90px;
@@ -383,8 +383,9 @@ margin-top: 30px;
     border: 0px black solid;
     border-radius: 15px;
     height: 50px;
-    width: 300px;
+    width: 280px;
     outline: none; 
+    padding-left: 15px;
 
     -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.33);
 -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.33);
@@ -392,7 +393,9 @@ box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.33);
 }
 }
 
-.hr2 {
+
+
+.gits hr {
     width: 1236px;
     height: 3px;
     background-color: #593340;
@@ -402,6 +405,7 @@ box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.33);
     margin-bottom: 90px;
     border: none;
 }
+
 
 
 footer {
