@@ -1,0 +1,1 @@
+$('.button').one('mouseout', function () { $(this).addClass('alt-animation'); });
