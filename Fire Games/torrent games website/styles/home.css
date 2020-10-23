@@ -321,13 +321,8 @@ aside h2 {
     outline: none;
     border: none;
     margin: 0 10px;
-    transition: opacity 100ms ease;
 }
 
-.game-images img:hover {
-	opacity: 0.9;
-	transition: opacity 100ms ease;
-}
 
 .game-names h3 {
 	text-align: center;
