@@ -3,10 +3,12 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
 body {
 	font-family: 'Roboto', sans-serif;
 	background-color: #F5F5F5FF; 
 }
+
 a {
 	text-decoration: none;
 }
@@ -313,13 +315,18 @@ aside h2 {
 	text-align: center;
 }
 
-
 .game-images img {
 	max-width: 161px;
     height: 230px;
     outline: none;
     border: none;
     margin: 0 10px;
+    transition: opacity 100ms ease;
+}
+
+.game-images img:hover {
+	opacity: 0.9;
+	transition: opacity 100ms ease;
 }
 
 .game-names h3 {
@@ -786,9 +793,7 @@ footer .copyright-size-block p {
 	  	top: 0px;
 	  	border-bottom: 3px #1E1E1EFF solid;
 
-		box-shadow: 1px 14px 41px -1px rgba(0,0,0,0.48);
-		-webkit-box-shadow: 1px 14px 41px -1px rgba(0,0,0,0.48);
-		-moz-box-shadow: 1px 14px 41px -1px rgba(0,0,0,0.48);
+		
 }
 
 	.g-header-buttons-list {
