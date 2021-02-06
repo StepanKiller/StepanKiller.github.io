@@ -25,7 +25,7 @@ window.onload = function () {
 
 
 
- // $('.button').one('mouseout', function () { $(this).addClass('alt-animation'); });
+ $('.button').one('mouseout', function () { $(this).addClass('alt-animation'); });
 
 
 
